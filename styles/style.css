@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #D7D7D7;
+}
+main{
+    margin: 0px 50px;
+   
+}
+.logo{
+    border: 1px solid teal;
+    border-radius: 50%;
+}
+.menu{
+    margin: 50px 20px 0px;
+    display: flex;
+}
+.menu-item{
+    display: flex;
+    list-style: none;
+    margin-left: 700px;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-item ul{
+    
+}
+.menu-item a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+}
+
+.menu-item a:hover{
+    color: teal;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FE724C;
+    color: white;
+}
+.btn:hover{
+    background-color: teal;
+
+}
+.explore{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: teal;
+    color: white;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+    
+    justify-content: center;
+   max-width: 600px;
+}
+.banner-img{
+    align-items: center;
+    flex: 2;
+}
+.banner-des{
+    align-items: center;
+    text-align: center;
+}
+.banner h1{
+    font-size: 60px;
+    color: #272D2F;
+}
+.banner-des p{
+    font-size: 20px;
+    color: #272D2F;
+}
+.banner-des h1,p{
+    margin-top: 20px;
+}
+
+/* login style */
+.login-page{
+    margin-top: 50px;
+}
+.login-page h1{
+    text-align: center;
+}
+.login_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow:5px 5px 5px 5px #888888;
+    padding: 10px;
+    margin: auto;
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.login-title{
+    text-align: center;
+}
+.form_info{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+}
+.form_info input{
+    height: 40px;
+}
+.form_info label{
+    font-size: 20px;
+}
+
+.form_info button{
+    width: 60%;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: teal;
+    color: white;
+}
+.submit-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_info p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
