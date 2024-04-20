@@ -121,7 +121,10 @@ main{
     gap: 1rem;
 }
 .form_info input{
+    padding: 6px 10px;
     height: 40px;
+    border: 1px solid #888888;
+    border-radius: 4px;
 }
 .form_info label{
     font-size: 20px;
