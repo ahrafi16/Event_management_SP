@@ -5,7 +5,7 @@
     background-color: #D7D7D7;
 }
 main{
-    margin: 0px 50px;
+    margin: 0px 60px;
    
 }
 .logo{
@@ -19,12 +19,17 @@ main{
 .menu-item{
     display: flex;
     list-style: none;
-    margin-left: 700px;
+    margin-left: 500px;
     justify-content: space-between;
     align-items: center;
 }
 .menu-item ul{
     
+}
+.project-title{
+    font-size: 20px;
+    color: teal;
+    margin: 15px 0px 5px 10px;
 }
 .menu-item a{
     text-decoration: none;
@@ -76,7 +81,7 @@ main{
     text-align: center;
 }
 .banner h1{
-    font-size: 60px;
+    font-size: 50px;
     color: #272D2F;
 }
 .banner-des p{
