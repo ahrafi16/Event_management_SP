@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #D7D7D7;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 main{
     margin: 0px 60px;
@@ -40,6 +41,7 @@ main{
 
 .menu-item a:hover{
     color: teal;
+    text-decoration: overline;
 }
 .btn{
     padding: 10px 20px;
@@ -91,6 +93,7 @@ main{
 .banner-des h1,p{
     margin-top: 20px;
 }
+
 
 /* login style */
 .login-page{
@@ -149,4 +152,70 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Search Design */
+.search{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 20px;
+}
+.search select{
+    text-align: center;
+    border: 1px solid teal;
+    width: 350px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* card design */
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 50px;
+    justify-content: space-between;
+}
+.card_container{
+    background-color: #ABC6C6;
+    overflow: hidden;
+    border-radius: 15px;
+    height: auto;
+    flex: 1 1 48%; 
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card_container:hover{
+    box-shadow: 10px 10px 10px gray;
+}
+.card_container img{
+    width: 100%;
+    height: 50%;
+}
+.card_details_heading{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.card_container p{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 30%;
+}
+.card_btn{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.card_btn button{
+    width: 100%;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 50px;
+    background-color: teal;
+    color: white;
 }

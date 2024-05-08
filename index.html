@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Management System</title>
-    <link rel="icon" type="images/png"  href="images/icons8-event-64.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="images/png" href="images/icons8-event-64.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
     <main>
         <div class="menu">
@@ -19,24 +23,108 @@
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="login.html"><button class="btn">Login/Register</button></a></li>
             </ul>
-            
+
         </div>
 
         <div class="banner">
             <div class="banner-des">
                 <h1>Book Your Favourite <br>Management Team</h1>
                 <p>You can book any of the teams you like</p>
-                <button class="explore">Explore Your Team <i style="background: none;" class='fas fa-arrow-right'></i></button>
+                <button class="explore">Explore Your Team <i style="background: none;"
+                    class='fas fa-arrow-right'></i></button>
             </div>
 
             <!-- <div class="banner-img"> -->
-                <img class="img" src="images/Work anniversary-bro.png" alt="">
+            <img class="img" src="images/Work anniversary-bro.png" alt="">
             <!-- </div> -->
         </div>
 
+        <!-- search -->
+        <div class="search">
+            <div class="location">
+                Your Location: <select name="location" id="location">
+                    <option class="op" value="Dhaka" selected="selected">Dhaka</option>
+                    <option class="op" value="Gazipur">Gazipur</option>
+                    <option class="op" value="Savar">Savar</option>
+                    <option class="op" value="Narayanganj">Narayanganj</option>
+                    <option class="op" value="Sylhet">Sylhet</option>
+                    <option class="op" value="Chattogram">Chattogram</option>
+                </select>
+            </div>
+
+            <div class="event">
+                Your Event: <select name="event" id="event">
+                    <option value="">Holud Night</option>
+                    <option value="">Birthday</option>
+                    <option value="">Marriage Aniversary</option>
+                    <option value="">Sunnote Khatna</option>
+                    <option value="">Simple Party</option>
+                    <option value="" selected="selected">Marriage Ceremony</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- cards -->
+        <div class="card">
+            <div class="card_container">
+                <img src="images/c2.jpg" alt="">
+                <h1 class="card_details_heading">Galas Galore Event Planning</h1>
+                <p>Events Covered : 34 </p>
+                <p> Pending : 1</p>
+                <p> Location : Dhaka</p>
+                <p>Rating : 4.9/5</p>
+
+                <div class="card_btn">
+                    <button>Details</button>
+                    <button>Hire</button>
+                </div>
+            </div>
+
+            <div class="card_container">
+                <img src="images/c4.jpg" alt="">
+                <h1 class="card_details_heading">Ananta Events </h1>
+
+                <p>Events Covered : 29</p>
+                <p>Pending : 0 </p>
+                <p>Location : Dhaka</p>
+                <p>Rating : 4.2/5</p>
+
+                <div class="card_btn">
+                    <button>Details</button>
+                    <button>Hire</button>
+                </div>
+            </div>
+
+            <div class="card_container">
+                <img src="images/wed.jpg" alt="">
+                <h1 class="card_details_heading">Empowering Events</h1>
+                <p>Events Covered : 20 </p>
+                <p>Pending : 1 </p>
+                <p>Location : Gazipur </p>
+                <p>Rating : 3.8/5 </p>
+                <div class="card_btn">
+                    <button>Details</button>
+                    <button>Hire</button>
+                </div>
+            </div>
+
+            <div class="card_container">
+                <img src="images/c5.jpg" alt="">
+                <h1 class="card_details_heading">Party Picassos </h1>
+                <p> Events Covered : 18</p>
+                <p>Pending : 0</p>
+                <p>Location : Savar </p>
+                <p> Rating : 3.5/5 </p>
+                <div class="card_btn">
+                    <button>Details</button>
+                    <button>Hire</button>
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
