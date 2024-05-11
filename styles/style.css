@@ -1,9 +1,12 @@
+/* POPPINS FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
 }
 main{
     margin: 0px 60px;
@@ -28,7 +31,7 @@ main{
     
 }
 .project-title{
-    font-size: 20px;
+    font-size: 30px;
     color: teal;
     margin: 15px 0px 5px 10px;
 }
@@ -107,11 +110,15 @@ main{
     flex-direction: column;
     justify-content: center;
     box-shadow:5px 5px 5px 5px #888888;
-    padding: 10px;
+    padding: 30px;
     margin: auto;
     width: 60%;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-bottom: 50px;
+    border-radius: 20px;
+}
+.login_info a{
+    color: blue;
 }
 .login-title{
     text-align: center;
@@ -174,14 +181,14 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    padding: 50px;
+    margin: 50px;
     justify-content: space-between;
 }
 .card_container{
     background-color: #ABC6C6;
     overflow: hidden;
     border-radius: 15px;
-    height: auto;
+    height: 600px;
     flex: 1 1 48%; 
     border-radius: 15px;
     box-sizing: border-box;
@@ -196,21 +203,21 @@ main{
 }
 .card_details_heading{
     text-align: center;
-    font-size: 30px;
-    margin-top: 10px;
+    font-size: 20px;
+    margin-top: 5px;
 }
 .card_container p{
-    font-size: 25px;
+    font-size: 15px;
     text-align: left;
-    margin-left: 30%;
+    margin-left: 40%;
 }
 .card_btn{
-    margin: 20px;
+    margin: 10px;
     display: flex;
     justify-content: space-around;
 }
 .card_btn button{
-    width: 100%;
+    width: 30%;
     margin: 10px;
     padding: 10px 20px;
     font-size: 15px;
@@ -219,3 +226,41 @@ main{
     background-color: teal;
     color: white;
 }
+.card_btn a{
+    text-decoration: none;
+    color: white;
+}
+/* details card design */
+.details_card{
+    margin: 40px;
+}
+.person{
+    width: 90px;
+    height: 90px;
+    border: 2px solid whitesmoke;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 50%;
+}
+.members{
+    text-align: center;
+    font-size: 10px;
+    display: flex;
+}
+.member_info{
+    padding: 20px 20px 20px 0px;
+}
+.details_banner{
+    display: flex;
+}
+.im-1{
+    border-radius: 20px;
+}
+.details_banner h1{
+    display: none;
+}
+.details_banner img{
+    width: 50%;
+    padding: 10px;
+}
+
+/* footer style */
