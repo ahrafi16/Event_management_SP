@@ -11,19 +11,13 @@ body {
     background-color: #f0f0f0;
 }
 
-.event-cards{
-    /* display: flex; */
-    /* flex: 3; */
-    padding: 50px;
-}
-
-.card-container{
+/* .card-container{
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 100;
     float:left;
     width: 33.33%;
-}
+} */
 
 .card{
     width: 325px;
