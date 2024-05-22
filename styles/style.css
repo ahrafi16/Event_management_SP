@@ -9,12 +9,12 @@
     font-family: 'Poppins', sans-serif;
 }
 main{
-    margin: 0px 60px;
+    margin: 0px 50px;
    
 }
 .logo{
-    border: 1px solid teal;
-    border-radius: 50%;
+    width: 60px;
+    height: 60px;
 }
 .menu{
     margin: 50px 40px 0px;
@@ -32,7 +32,6 @@ main{
 }
 .dropdown:hover .dropdown_content{
      display: block;
-     /* background-color: #FE724C; */
      background-color: rgb(241 245 249);
      border-radius: 10px;
      box-shadow: -3px -3px 7px #ffffff,
@@ -50,7 +49,7 @@ main{
 .project-title{
     font-size: 30px;
     color: teal;
-    margin: 15px 0px 5px 10px;
+    margin: 10px 0px 0px 1px;
 }
 .menu-item a{
     text-decoration: none;
@@ -58,7 +57,6 @@ main{
     padding: 20px;
     color: black;
 }
-
 .menu-item a:hover{
     color: teal;
 }
@@ -83,7 +81,7 @@ main{
     background-color: teal;
     color: white;
 }
-/* ----------Banner design----------  */
+/* --------------------------------Banner design---------------------------  */
 .banner{
     margin: 50px;
     height: 400px;
@@ -113,7 +111,7 @@ main{
 
 
 
-/* ---------------login style-------------- */
+/* -------------------------------------login style------------------------------- */
 .login-page{
     margin-top: 50px;
 }
@@ -146,7 +144,7 @@ main{
     display: flex;
     flex-direction: column;
     flex: 1;
-    gap: 1rem;
+    gap: 0.5rem;
 }
 .form_info input{
     padding: 6px 10px;
@@ -179,7 +177,7 @@ main{
     align-items: center;
 }
 
-/* Search Design */
+/* --------------------------------Search Design------------------------ */
 .search{
     display: flex;
     justify-content: space-between;
@@ -191,14 +189,14 @@ main{
     border: none;
     box-shadow: 0 0 2px teal;
     width: 350px;
-    padding: 10px;
+    padding: 3px;
     border-radius: 4px;
 }
 .opt{
     font-size: 18px;
 }
 
-/* ---------------card design starts here ------------- */
+/* -------------------------------------Card design starts here-------- ------------- */
 .event-cards{
     margin: 50px;
     display: grid;
@@ -261,10 +259,31 @@ main{
     text-align: center;
     align-items: center;
 }
-/* ---------------card design ends here ------------- */
+/* -------------------------------------Pagination starts here----------- ------------- */
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.pagination_btn{
+    padding: 5px;
+    width: 50px;
+    border-width: 1px 1px 1px 0;
+    color: #666;
+}
+.pagination_btn:first-child{
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+}
+.pagination_btn:hover{
+    background-color: teal;
+    color: white;
+}
+/* ----------------------------------Pagination ends here ------------- */
 
 
-/* details card design */
+/* ----------------------------------details card design------------------- */
 .details_card{
     margin: 40px;
 }
@@ -310,6 +329,9 @@ main{
 .details_banner:hover h1{
     visibility: visible;
 }
+.details_info{
+    padding: 5px;
+}
 
 .im-1{
     border-radius: 20px;
@@ -346,7 +368,7 @@ main{
     font-size: 25px;
     font-weight: 600;
 }
-/* about us */
+/* ---------------------------------about us----------------------------------- */
 .coder_card{
     margin: 50px;
     display: flex;
@@ -469,7 +491,9 @@ main{
     color: #31344b;
     z-index: 4;
 }
-/* footer style */
+
+
+/* ------------------------------------footer style------------------------ */
 .footer_container{
     background-color:#282d32; 
     color: white;
@@ -502,13 +526,12 @@ main{
 }
 .footer-dark {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     color:#f0f9ff;
-    padding-top: 50px;
+    padding: 50px 90px 30px;
   }
 
 .footer-dark h3 {
-    margin-top:0;
     margin-bottom:12px;
     font-weight:bold;
     font-size:16px;
