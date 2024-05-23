@@ -201,6 +201,7 @@ main{
     margin: 50px;
     display: grid;
     grid-template-columns: auto auto auto;
+    justify-content: space-between;
 }
 
 .card{
@@ -265,6 +266,7 @@ main{
     justify-content: center;
     align-items: center;
     padding: 5px;
+    margin-bottom: 10px;
 }
 .pagination_btn{
     padding: 5px;
