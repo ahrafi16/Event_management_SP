@@ -166,6 +166,7 @@ main{
     color: white;
 }
 .submit-button{
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,6 +176,10 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.login-page a{
+    padding-left: 10px;
 }
 
 /* --------------------------------Search Design------------------------ */
@@ -370,6 +375,10 @@ main{
     font-size: 25px;
     font-weight: 600;
 }
+
+
+
+
 /* ---------------------------------about us----------------------------------- */
 .coder_card{
     margin: 50px;
